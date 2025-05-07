@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Gerador de Currículos",
   description: "Crie seu currículo profissional e exporte como PDF",
   icons: {
-    icon: "/public/logotipo.png",
+    icon: "public/logotipo.png",
   },
 }
 
