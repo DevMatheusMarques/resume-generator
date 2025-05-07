@@ -9,7 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Gerador de Currículos",
   description: "Crie seu currículo profissional e exporte como PDF",
-    generator: 'v0.dev'
+  icons: {
+    icon: "/public/logotipo.png",
+  },
 }
 
 export default function RootLayout({
